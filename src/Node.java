@@ -5,11 +5,19 @@ public class Node {
             return data;
 
         }
-        public void setdata(int data){
+
+    public Node() {
+        this.next = next;
+    }
+
+    public void setdata(int data){
             this.data=data;
 
         }
+ public void setNext(Node next){
+            this.next=next;
 
+ }
 }
 
 
